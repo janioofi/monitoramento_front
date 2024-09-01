@@ -1,4 +1,4 @@
-# Sistema para Controle Financeiro 💻
+# Sistema para Monitoramento de Dispositivo 💻
 
 ![dashboard](https://github.com/user-attachments/assets/c8bef217-deab-443f-b347-a62275e647c1)
 
