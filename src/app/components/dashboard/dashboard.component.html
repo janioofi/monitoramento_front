@@ -1,0 +1,32 @@
+<section class="container py-5 mt-5">
+  <div class="row">
+    <!-- Card para adicionar novo dispositivo -->
+    <div class="col-md-4 mb-4">
+      <div class="card text-center add-device" (click)="addDevice()">
+        <div class="card-body">
+          <i class="bi bi-plus-circle" style="font-size: 3rem; color: #007bff;"></i>
+          <h5 class="card-title mt-2">Adicionar Dispositivo</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cards dos dispositivos existentes -->
+    <div class="col-md-4 mb-4" *ngFor="let device of devices">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{ device.name }}</h5>
+          <p class="card-text">
+            <strong>Status:</strong> {{ device.status }}<br>
+            <strong>Último Ping:</strong> {{ device.lastPing | date:'short' }}<br>
+            <strong>Localização:</strong> {{ device.location }}
+          </p>
+          <div class="d-flex justify-content-between">
+            <button class="btn btn-primary" (click)="editDevice(device.idDevice)">Editar</button>
+            <button class="btn btn-danger" (click)="deleteDevice(device.idDevice)">Excluir</button>
+            <button class="btn btn-info" (click)="viewLogs(device.idDevice)">Logs</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

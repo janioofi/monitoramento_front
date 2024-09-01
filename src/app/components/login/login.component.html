@@ -1,0 +1,33 @@
+<section class="vh-100 d-flex align-items-center justify-content-center bg-primary">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-lg-6 col-xl-4">
+        <div class="card shadow-lg border-light rounded">
+          <div class="card-body p-4 p-md-5">
+
+            <h2 class="fw-bold mb-4 text-center">Login</h2>
+            <p class="text-muted text-center mb-4">Por favor, entre com seu usuário e senha</p>
+
+            <form>
+              <div class="mb-3">
+                <label for="username" class="form-label">Usuário</label>
+                <input type="text" id="username" class="form-control form-control-lg" [formControl]="username" />
+              </div>
+
+              <div class="mb-4">
+                <label for="password" class="form-label">Senha</label>
+                <input type="password" id="password" class="form-control form-control-lg" [formControl]="password" />
+              </div>
+
+              <div class="d-flex justify-content-between mb-4">
+                <button [disabled]="!validaCampos()" class="btn btn-primary btn-lg" (click)="logar()" type="button">Login</button>
+                <button [disabled]="!validaCampos()" class="btn btn-secondary btn-lg" (click)="registrar()" type="button">Registrar</button>
+              </div>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

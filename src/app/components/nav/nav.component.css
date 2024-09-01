@@ -1,0 +1,22 @@
+/* navbar.component.css */
+
+.navbar-nav {
+  text-align: center; /* Centraliza o texto dentro dos itens da lista */
+}
+
+.nav-link {
+  font-size: 1.2rem; /* Aumenta o tamanho da fonte dos links */
+  margin: 0 15px; /* Espaçamento horizontal entre os links */
+}
+
+.navbar-brand {
+  font-size: 1.5rem; /* Ajusta o tamanho da marca da navbar se necessário */
+}
+
+.btn-outline-light {
+  font-size: 1.2rem; /* Ajusta o tamanho da fonte do botão de logout */
+}
+
+a{
+  cursor: pointer;
+}

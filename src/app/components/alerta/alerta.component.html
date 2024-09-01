@@ -1,0 +1,20 @@
+<div class="container pt-5 mt-5">
+  <div class="row">
+    <div *ngFor="let alert of alerts" class="col-md-4">
+      <div class="card mb-4">
+        <div class="card-body">
+          <h5 class="card-title">{{ alert.level }}</h5>
+          <p class="card-text">{{ alert.message }}</p>
+          <button class="btn btn-danger" (click)="deleteAlert(alert.id)">Excluir</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card mb-4">
+        <div class="card-body text-center">
+          <button class="btn btn-primary" (click)="addAlert()">Adicionar Alerta</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,27 @@
+<div class="modal-header">
+  <h5 class="modal-title">{{ isEdit ? 'Editar Dispositivo' : 'Adicionar Novo Dispositivo' }}</h5>
+  <button type="button" class="btn-close" aria-label="Close" (click)="close()"></button>
+</div>
+<div class="modal-body">
+  <form [formGroup]="deviceForm" (ngSubmit)="onSubmit()">
+    <div class="mb-3">
+      <label for="name" class="form-label">Nome</label>
+      <input type="text" id="name" class="form-control" formControlName="name" />
+    </div>
+    <div class="mb-3">
+      <label for="status" class="form-label">Status</label>
+      <select id="status" class="form-select" formControlName="status">
+        <option value="ATIVO">Ativo</option>
+        <option value="INATIVO">Inativo</option>
+        <option value="EM_FALHA">Em Falha</option>
+      </select>
+    </div>
+    <div class="mb-3">
+      <label for="location" class="form-label">Localização</label>
+      <input type="text" id="location" class="form-control" formControlName="location" />
+    </div>
+    <div class="d-flex justify-content-end">
+      <button type="submit" class="btn btn-primary">{{ isEdit ? 'Salvar' : 'Adicionar' }}</button>
+    </div>
+  </form>
+</div>

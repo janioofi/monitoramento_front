@@ -1,0 +1,21 @@
+<div class="modal-header">
+  <h4 class="modal-title">Adicionar Novo Alerta</h4>
+  <button type="button" class="btn-close" aria-label="Close" (click)="close()"></button>
+</div>
+<div class="modal-body">
+  <form [formGroup]="alertForm" (ngSubmit)="onSubmit()">
+    <div class="mb-3">
+      <label for="level" class="form-label">Nível</label>
+      <select id="level" class="form-select" formControlName="level">
+        <option value="NORMAL">Normal</option>
+        <option value="CRITICO">Crítico</option>
+        <option value="ERRO">Erro</option>
+      </select>
+    </div>
+    <div class="mb-3">
+      <label for="message" class="form-label">Mensagem</label>
+      <input id="message" class="form-control" formControlName="message">
+    </div>
+    <button type="submit" class="btn btn-primary">Salvar</button>
+  </form>
+</div>

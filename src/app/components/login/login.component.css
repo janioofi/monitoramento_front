@@ -1,0 +1,17 @@
+.bg-primary {
+  background-color: #007bff; /* Ajuste a cor de fundo */
+}
+
+.card {
+  background-color: #f8f9fa; /* Ajuste a cor de fundo do cartão */
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border: none;
+}

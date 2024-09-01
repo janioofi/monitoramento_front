@@ -1,0 +1,23 @@
+<!-- device-logs.component.html -->
+
+<div class="container pt-5 mt-4">
+  <h2>Logs do Dispositivo</h2>
+  <table class="table table-striped mt-3">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Timestamp</th>
+        <th>Mensagem</th>
+        <th>Nível</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let log of logs">
+        <td>{{ log.idLog }}</td>
+        <td>{{ log.timestamp | date:'short' }}</td>
+        <td>{{ log.message }}</td>
+        <td>{{ log.level }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

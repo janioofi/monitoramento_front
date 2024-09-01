@@ -1,0 +1,10 @@
+/* Estilo para o card de adicionar pagamento */
+.add-device {
+  cursor: pointer;
+  border: 2px dashed #007bff; /* Estilo de borda para o card de adicionar */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra ao redor do card de adicionar */
+}
