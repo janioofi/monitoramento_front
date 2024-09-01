@@ -19,6 +19,7 @@ Este projeto é uma aplicação web de monitoramento de dispositivos conectados 
   - Maven
   - Spring Data
   - Spring Security
+  - Spring Mail
   - PostgreSQL
   - JWT
 
