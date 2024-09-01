@@ -43,6 +43,16 @@ Este projeto é uma aplicação web de monitoramento de dispositivos conectados 
     - Protege o acesso às funcionalidades da aplicação através de autenticação básica.
 
 ## Telas do sistema
+### Login
+![login](https://github.com/user-attachments/assets/66098b4b-e49c-4473-ab5d-8ca5b2469e60)
+### Logs
+![logs](https://github.com/user-attachments/assets/c1cb3b29-bd23-49ab-ad2c-496bcbd257bd)
+### Editar / Criar Dispositivo
+![editar_criar](https://github.com/user-attachments/assets/2bb82d67-eb4f-46ad-9ca7-e64b930a51f9)
+### Alertas
+![alertas](https://github.com/user-attachments/assets/4192dee4-f88d-43e0-81b4-a96e39a24013)
+### Criar Alertas
+![criar alertas](https://github.com/user-attachments/assets/29e5ede1-ec91-4e6d-aa64-a3bc3b4f8775)
 
 ## License
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
