@@ -13,7 +13,7 @@ Este projeto é uma aplicação web de monitoramento de dispositivos conectados 
   - HTML
   - CSS
   - Bootstrap
-- [Back-end](https://github.com/janioofi/monitoramento)
+- [Back-end](https://github.com/janioofi/monitoramento_back)
   - Java 17
   - Spring Boot
   - Maven
