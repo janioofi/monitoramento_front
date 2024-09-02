@@ -42,7 +42,13 @@ Este projeto é uma aplicação web de monitoramento de dispositivos conectados 
   - Autenticação de Usuário:
     - Faça login e registre novos usuários para acessar a aplicação.
     - Protege o acesso às funcionalidades da aplicação através de autenticação básica.
-
+    - 
+## Build  do projeto
+- Clonar o repositório: `git clone https://github.com/janioofi/monitoramento_front.git`
+- Entrar na pasta do projeto: `cd monitoramento_front`
+- Instalar os pacotes: `npm install --force`
+- Rodar o projeto: `ng serve`
+  
 ## Telas do sistema
 ### Login
 ![login](https://github.com/user-attachments/assets/66098b4b-e49c-4473-ab5d-8ca5b2469e60)
